@@ -281,13 +281,19 @@ int main(void)
  
          bsp_board_init(BSP_INIT_BUTTONS);
     
-
-
+/*BUZZER INIT*/
+#define BuzzerPin NRF_GPIO_PIN_MAP(1,1)
+ nrf_gpio_cfg_output( BuzzerPin );
+   nrf_gpio_pin_write(BuzzerPin,1);
+  nrf_delay_ms(500);
+  nrf_gpio_pin_write(BuzzerPin,0);
 
     /*Configure LED pins*/
     LEDS_CONFIGURE(BSP_LED_0_MASK);
     LEDS_OFF(BSP_LED_0_MASK);
 
+LEDS_ON(BSP_LED_0_MASK);
+//LEDS_ON(BSP_LED_1_MASK);
     /* Set up NFC */
     err_code = hal_nfc_setup(nfc_callback, NULL);
     APP_ERROR_CHECK(err_code);
@@ -308,8 +314,13 @@ int number=0;
     while (1)
     {
 
+ 
+
    if(bsp_board_button_state_get(0)==true) // button 1 : reset buton counter
  {
+ bsp_board_led_invert(0);bsp_board_led_invert(1);bsp_board_led_invert(2);bsp_board_led_invert(3);
+bsp_board_led_invert(4);bsp_board_led_invert(5);bsp_board_led_invert(6);
+
   btn_number=0;
     char inNumber[4];
     snprintf(inNumber,sizeof(inNumber),"%u", number+btn_number);
@@ -320,6 +331,8 @@ int number=0;
  }
  if(bsp_board_button_state_get(1)==true) // button 2 : increase buton cnt
  {
+ bsp_board_led_invert(0);bsp_board_led_invert(1);bsp_board_led_invert(2);bsp_board_led_invert(3);
+bsp_board_led_invert(4);bsp_board_led_invert(5);bsp_board_led_invert(6);
   btn_number++;
   nrf_delay_ms(500);
 

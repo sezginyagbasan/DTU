@@ -51,7 +51,7 @@
  </TraceWindow>
  <Watch1>
   <Watches active="1" update="Never">
-   <Watchpoint expression="inNumber" name="inNumber" radix="-1" linenumber="336" filename="../../../main.c"/>
+   <Watchpoint expression="inNumber" name="inNumber" radix="-1" linenumber="338" filename="../../../main.c"/>
    <Watchpoint expression="m_ndef_msg_buf" name="m_ndef_msg_buf" radix="1" linenumber="83" filename="../../../main.c"/>
    <Watchpoint expression="m_nfc_rx_buffer" name="m_nfc_rx_buffer" radix="-1" linenumber="879" filename="../../../../../../components/nfc/t2t_lib/hal_t2t/hal_nfc_t2t.c"/>
    <Watchpoint expression="Test_Memory_Type2" name="Test_Memory_Type2" radix="1" linenumber="153" filename="../../../main.c"/>
@@ -67,16 +67,18 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="43" y="270" useTextEdit="1" folds0="138,198,257" path="../../../main.c" left="0" selected="1" top="150" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="322" useTextEdit="1" folds0="138,198,257" path="../../../main.c" left="0" selected="1" top="201" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="3" y="249" useTextEdit="1" path="../../../../../../external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" left="0" top="221" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="396" useTextEdit="1" path="../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" left="0" top="375" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="63" y="866" useTextEdit="1" folds0="795,817" path="../../../../../../components/nfc/t2t_lib/hal_t2t/hal_nfc_t2t.c" left="0" top="848" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="28" y="69" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/FOLDERS/HSM/nRF5_SDK_15.0.0_a53641a/components/nfc/t2t_lib/hal_t2t/hal_nfc_t2t.c" path="../../../../../../components/nfc/t2t_lib/hal_t2t/hal_nfc_t2t.h" left="0" top="56" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="8" y="66" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/FOLDERS/HSM/nRF5_SDK_15.0.0_a53641a/examples/nfc/record_text/main.c" path="../../../../../../components/nfc/t2t_lib/nfc_t2t_lib.h" left="0" top="66" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="11" y="80" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/FOLDERS/HSM/nRF5_SDK_15.0.0_a53641a/examples/nfc/record_text/main.c" folds0="83,163,170" path="../../../../../../components/nfc/ndef/generic/message/nfc_ndef_msg.c" left="0" top="54" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="169" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/FOLDERS/HSM/nRF5_SDK_15.0.0_a53641a/examples/nfc/record_text/main.c" path="../../../../../../components/boards/boards.c" left="0" top="163" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="69" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/FOLDERS/HSM/nRF5_SDK_15.0.0_a53641a/components/boards/boards.c" path="../../../../../../components/boards/pca10040.h" left="0" top="57" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="31" y="173" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/FOLDERS/HSM/nRF5_SDK_15.0.0_a53641a/examples/nfc/record_text/main.c" path="../../../../../../components/boards/boards.h" left="0" top="168" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="29" y="64" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/DTU/nRF5_SDK_15.0.0_a53641a/components/boards/boards.h" path="../../../../../../components/boards/boards.c" left="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="69" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/DTU/nRF5_SDK_15.0.0_a53641a/components/boards/boards.c" path="../../../../../../components/boards/pca10040.h" left="0" top="49" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="106" useTextEdit="1" openedFrom="C:/Users/hp/Desktop/DTU/nRF5_SDK_15.0.0_a53641a/examples/nfc/record_text/main.c" path="../../../../../../components/boards/boards.h" left="0" top="80" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="124" useTextEdit="1" path="../config/sdk_config.h" left="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="98" useTextEdit="1" path="../../../../../../components/libraries/util/app_error_weak.c" left="0" top="51" codecName=""/>
  </Files>
  <EMStudioWindow activeProject="nfc_text_record_pca10040" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
